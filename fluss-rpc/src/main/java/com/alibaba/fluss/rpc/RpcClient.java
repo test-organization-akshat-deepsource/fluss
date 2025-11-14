@@ -25,6 +25,7 @@ import com.alibaba.fluss.rpc.netty.client.NettyClient;
 import com.alibaba.fluss.rpc.protocol.ApiKeys;
 
 import java.util.concurrent.CompletableFuture;
+import java.io.*;
 
 /**
  * A network client interface for asynchronous request/response network i/o. This is an internal
